@@ -208,7 +208,8 @@ function FileCertifyPage() {
                 />
                 <div>
                   <Typography variant="body1" color="success">
-                    The hash code generated was {hashCode}
+                    <h3 style={headerStyles}>The Certificate has been uploaded to blockchain.</h3> The qr code serves as a key and the hash code generated serves as an address. This key and address pair is unique to every certificate. If a wrong qr code is presented infront of somebody, then the certificate is not shown because the key did not match the address.
+                    <h4 style={headerStyles}>The hash code generated was {hashCode}</h4>
                   </Typography>
                 </div>
               </div>
@@ -249,7 +250,7 @@ function FileCertifyPage() {
             <div>
               <p>Scanned QR Code Data:</p>
               <p>
-                {/* Generate a link based on the scanned data */}
+
                 <a href={`http://certificate3k.infura-ipfs.io/ipfs/${qrData}`} target="_blank" rel="noopener noreferrer">
                   View Certificate
                 </a>
@@ -257,8 +258,6 @@ function FileCertifyPage() {
             </div>
           )}
         </div>
-
-        {/* ... (previous code) ... */}
       </div>
     </div>
   );
