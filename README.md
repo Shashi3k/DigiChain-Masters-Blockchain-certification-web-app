@@ -1,7 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+#Please Refer to The Digichain Masters doccument Research Paper for getting an insight to the project. We have also provided necessary screenshots and youtube video link for more insights.
 ## Available Scripts
 
 In the project directory, you can run:
